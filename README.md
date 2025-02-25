@@ -1,100 +1,113 @@
-<p align="center">
-  <br>
-  
-  <img width=230px height=116px  src="https://user-images.githubusercontent.com/30159212/211231276-55c965a3-642e-4ab4-a984-69a970d654fe.png" alt="Project logo">
- 
-</p>
+# Learning Management System (LMS)
+A web-based Learning Management System (LMS) for seamless course delivery, student engagement, and progress tracking.
 
----
+📝 Table of Contents 
 
-<p align="center"> A Learning Mangment System (LMS) Enhanced with machine learning
-    <br>
-</p>
+About The Project
+Key Features
+Built With
+Installation
+Usage
+API Endpoints
 
-## 📝 Table of Contents
+About The Project
 
-- [About The Project](#about-the-project)
-- [Key Features](#key-features)
-- [Built With](#built-with)
-- [Screen Shots](#screen-shots)
-- [Full Demo](#full-demo)
-- [Acknowledgements](#acknowledgements)
+This LMS is a full-stack web application that enables administrators to manage courses, instructors to deliver content efficiently, and students to track progress. It integrates modern web technologies to offer an intuitive and interactive learning experience.
 
-## About The Project
+Key Features
 
-<p align="center">
-  <br>
-  <img width=848px height=480px  src="https://user-images.githubusercontent.com/30159212/211318750-b7c464df-ce4a-49e6-987d-67fa9450b2c8.gif" alt="Project showcase">
+🔐 User Authentication & Roles
+Secure authentication for Admin, Instructor, and Student roles.
+Role-based access control for managing different functionalities.
 
-</p>
+📚 Course Management
 
-This is full stack web-app created as a final graduation project that aimed to design and build a fully functional learning mangment system (LMS) and integrate it with a varity of machine leraning models to offer common and invoative AI features.
+Admins can create, update, and delete courses.
+Upload and manage course materials (videos, PDFs, PPTs).
+Categorize courses by topic and difficulty.
 
-This repository contains the web portion (front-end | backend), but doesn't include the AI models.
+🎓 Course Enrollment & Learning
 
-## Key Features
+Students can browse and enroll in courses.
+View course details before enrolling.
+Track progress through modules and lessons.
 
-* Authentication
-* Authorization for diffrent uesr roles (student | instructor | admin)
-* Youtube integration for course Lectures
-* Announcments notification system with push notifications for desktop
-* Fast grader for assestments and exams
-* Auto Grading for essay questions using Machine learning
-* grade book for instructor
-* Deadlines Calendar
-* Plagarism detection
-* Live cheating detection from webcam and microphone using Machine Learning
-* Reports to the instructor of a cheating instance
-* Text moderation system
+📝 Quizzes & Assignments
 
+Auto-graded quizzes with real-time scoring.
+Assignment submission system with instructor reviews.
 
-## Built With
-* [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-* [![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)](https://redux.js.org/)
-* [![Ant Design](https://img.shields.io/badge/-AntDesign-%230170FE?style=for-the-badge&logo=ant-design&logoColor=white)](https://ant.design/)
-* [![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
-* [![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+📜 Certification
 
-## Screen Shots
-| login screen                                        | Courses Screen                          |
-| ----------------------------                        | ----------------------------------------|
-| ![login screen][ref-login]                          | ![courses screen][ref-courses-screen]   |
-| Lectures Screen                                     | Modules Screen                          |
-| ![lectures screen][ref-lectures-screen]             | ![modules screen][ref-modules-screen]   |
-| Assessment Creation Screen                          | Assessment View Screen                  |
-| ![Assessment Creation][ref-assessment-creation]     | ![Assessment View][ref-assessment-view] |
-| Exam taking Screen                                  | Grading Screen                          |
-| ![Exam taking Screen][ref-exam-taking-screen]       | ![Grading Screen][ref-grading-screen]   |
-| Grade Book Screen                                   | Course Settings Screen                  | 
-| ![Grade Book Screen][ref-grade-book-screen]         | ![Course Settings Screen][ref-course-settings-screen] |
+Generate course completion certificates in PDF format.
+Certificates include student details and course progress.
 
-## Full Demo
+💬 Discussion Forums
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=uvtkwOpwAYU" target="_blank">
-  <img width=640px height=360px src="https://user-images.githubusercontent.com/30159212/211315771-ebdf99ba-fbf1-42d2-a2f8-c6fabf788040.png" alt="IMAGE ALT TEXT HERE" border="10"/>
-</a>
+Students and instructors can engage in discussions.
+Ability to post questions, answer queries, and collaborate.
 
-## Acknowledgements
+🔔 Notifications System
 
-This project couldn't have been possible without the team
+Real-time notifications for course updates and deadlines.
+Alerts for new enrollments and assignment submissions.
 
-- Hazem Hamada
-- Omar Hazem
-- Basil Essam
-- Eslam Genedy
+📊 Admin Dashboard
 
-[ref-login]: https://user-images.githubusercontent.com/30159212/211311673-909d5981-9e2d-485e-841c-5bd13fb79118.png
-[ref-courses-screen]: https://user-images.githubusercontent.com/30159212/211311843-ba385a5e-19dd-47f6-90dc-c112ef9391f4.png
-[ref-lectures-screen]: https://user-images.githubusercontent.com/30159212/211312182-ada5a609-aac6-481e-97c1-7f656225270a.png
-[ref-modules-screen]: https://user-images.githubusercontent.com/30159212/211312222-ef57021c-5c18-40ac-9063-1d2c0b8a2ccb.png
-[ref-assessment-creation]: https://user-images.githubusercontent.com/30159212/211314602-cb0b15ab-0532-4fb9-afb6-72ba11a973ef.png
-[ref-assessment-view]: https://user-images.githubusercontent.com/30159212/211314671-5b17c883-5abe-49a2-ab01-08acf3a0ea0f.png
-[ref-exam-taking-screen]: https://user-images.githubusercontent.com/30159212/211314716-1281c7fd-d04b-44be-8672-bc7ba81ccb15.png
-[ref-grading-screen]: https://user-images.githubusercontent.com/30159212/211314755-23aa5da0-3263-4a97-822a-b1dd964d6141.png
-[ref-grade-book-screen]: https://user-images.githubusercontent.com/30159212/211314803-934b0bdb-d56c-41dd-ac65-e04239b80617.png
-[ref-course-settings-screen]: https://user-images.githubusercontent.com/30159212/211314844-b247ed2e-3998-48bd-ad2d-879b8325b7a2.png
+Comprehensive management of users, courses, and progress.
+View student reports and monitor activity.
 
+🔎 Search & Filters
 
+Advanced search to find courses based on categories, ratings, and difficulty.
+Sorting options for most popular, newest, and highest-rated courses.
 
+Built With
+Front-end: React, Redux, TailwindCSS
+Back-end: Node.js, Express.js, MongoDB
+Authentication: JWT (JSON Web Tokens)
+Storage: AWS S3 / Google Cloud Storage
+Other Technologies: WebSockets for real-time updates
+Installation
+Clone the repository:
+```bash
+git clone https://github.com/your-username/lms-project.git
+```
+```bash
+cd lms-project
+```
+Install dependencies:
+```bash
+npm install
+```
+Set up environment variables:
+Create a .env file and add your configuration details (MongoDB URI, JWT Secret, etc.).
 
+Run the application:
+```bash
+npm start
+```
+
+Usage
+Admin Panel: Manage users, courses, and system settings.
+Instructor Dashboard: Upload content, grade assignments, interact with students.
+Student Portal: Enroll in courses, complete assignments, track progress.
+API Endpoints
+Authentication:
+
+POST /api/auth/register – Register a new user
+POST /api/auth/login – Authenticate and get a JWT
+Courses:
+
+GET /api/courses – Retrieve all courses
+POST /api/courses – Create a new course (Admin only)
+GET /api/courses/:id – Get details of a course
+Quizzes & Assignments:
+
+POST /api/quizzes/:id/submit – Submit a quiz
+POST /api/assignments/:id/submit – Upload an assignment
+Discussions & Notifications:
+
+POST /api/discussions/:courseId – Create a new discussion
+GET /api/notifications – Get all user notifications
 
